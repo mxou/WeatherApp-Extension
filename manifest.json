@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "WeatherMap Extension",
+  "version": "1.0",
+  "description": "Extension Chrome pour afficher la météo actuelle avec WeatherAPI.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "assets/icons/meteoicon16.png",
+      "48": "assets/icons/meteoicon48.png",
+      "128": "assets/icons/meteoicon128.png"
+    }
+  },
+  "permissions": ["geolocation"]
+}
